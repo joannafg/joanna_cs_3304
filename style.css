@@ -1,0 +1,271 @@
+/* this is style sheet for index.html */
+/* apply to whole body */
+/* start */
+/* apply to the whole body */
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* apply to all the unvisited link */
+a:link {
+    text-decoration: none;
+}
+
+/* apply to all the visited link */
+a:visited {
+    text-decoration: none;
+}
+
+/* apply to the all the section header */
+.section-header {
+    color: 1D3557;
+    font-size: xx-large;
+    line-height: 300%;
+}
+
+/* end */
+
+/* navigation */
+/* start */
+/* apply to page banner  */
+#page-banner {
+    background-color: F1FAEE;
+    box-shadow: 0 0 5px rgba(22, 47, 14, 0.486);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+/* apply to the links in navigation */
+header nav a {
+    color: 1D3557;
+    text-decoration: none;
+    float: right;
+    margin: 1% 3%;
+
+}
+
+/* end */
+
+/* contact information */
+/* start */
+/* apply to whole contact section */
+.contact {
+    background-image: url("joanna.png");
+    background-color: F1FAEE;
+    height: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+/* apply to the name */
+#name {
+    color: 1D3557;
+    text-align: center;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -25px;
+    top: 35%;
+    left: 60%;
+    font-size: 500%;
+    font-weight: bold;
+}
+
+/* apply to the list */
+.contact-info-list {
+    color: 457B9D;
+    text-align: left;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -25px;
+    top: 58%;
+    left: 75%;
+}
+
+/* apply to the header in the list */
+.contact-info-list-header {
+    font-weight: bold;
+    margin-left: -30px;
+}
+
+/* apply to address */
+.home-address {
+    line-height: 80%;
+    font-style: normal;
+}
+
+/* apply to the link in the list */
+.contact-info-list-detail a {
+    color: 457B9D;
+}
+
+/* end */
+
+/* education section */
+/* start */
+/* apply to the education-info */
+#education-info {
+    height: 100%;
+    /* make the section the whole screen */
+}
+
+/* apply to education section */
+.education-container {
+    background-color: F1FAEE;
+    box-shadow: 0 0 5px rgba(22, 47, 14, 0.486);
+    width: 50%;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
+}
+
+/* apply to the list in education */
+.edu-list {
+    color: 457B9D;
+    list-style-position: inside;
+    list-style-type: none;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 0;
+    margin: 3% 0;
+    line-height: 200%;
+}
+
+/* apply to the main bullet points in the list */
+.edu-list .main {
+    font-weight: bold;
+}
+
+/* end */
+
+/* skills section  */
+/* start */
+/* apply to skills section */
+.skills-container {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: F1FAEE;
+}
+
+/* apply to the "Skills" section header */
+.skills-container .section-header {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 10%;
+}
+
+/* apply to skills class */
+.skills {
+    width: 100%;
+    position: relative;
+    top: 5%;
+    list-style-position: inside;
+    list-style-type: none;
+    color: 457B9D;
+    margin-left: 20%;
+    margin-top: -10%;
+}
+
+/* apply to progress bar */
+.progress-bar {
+    height: 0.5em;
+    position: relative;
+    background-color: rgba(69, 123, 157, 0.9);
+    border-radius: 20px;
+}
+
+/* apply to percent-30 class(for progress bar) */
+.percent-30 {
+    width: 30%;
+}
+
+/* apply to percent-40 class(for progress bar) */
+.percent-40 {
+    width: 40%;
+}
+
+/* apply to percent-50 class(for progress bar) */
+.percent-50 {
+    width: 50%;
+}
+
+/* apply to the skill list  */
+.skills-list {
+    width: 30%;
+    font-weight: bold;
+}
+
+/* apply to side-by-side class */
+.side-by-side {
+    /* make the progress bar and text side by sit  */
+    display: inline-block;
+}
+
+/* end */
+
+/* leadership section */
+/* start */
+/* apply to leadership note */
+#leadership-note {
+    color: F0828B;
+    font-style: italic;
+    text-align: center;
+    margin-top: -5%;
+    margin-bottom: 4%;
+}
+
+/* apply to leadership-info */
+#leadership-info {
+    /* make the section the whole screen */
+    height: 100%;
+
+}
+
+/* apply to leadership section */
+.leadership-contents {
+    width: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+/* apply to "Leadership and Activities" leadership section header */
+.leadership-contents .section-header {
+    text-align: center;
+}
+
+/* apply to the list in leadership sections */
+.leadership-list {
+    font-size: large;
+    list-style-type: none;
+    color: 457B9D;
+    line-height: 2em;
+}
+
+/* apply to leadership-role */
+.leadership-role {
+    font-weight: bold;
+}
+
+/* apply to the sublist in leadership */
+.leadership-sublist {
+    color: 457B9D;
+    line-height: 1.2em;
+    margin-top: -1%;
+}
+
+/* end */
